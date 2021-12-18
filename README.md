@@ -1,2 +1,1 @@
-# kevincho-me
-src code of my personal website
+# ohnivek.github.io
