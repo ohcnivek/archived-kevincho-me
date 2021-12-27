@@ -21,8 +21,6 @@
 // THE SOFTWARE.
 
 
-
-
 ! function($) {
 
     "use strict";

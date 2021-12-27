@@ -14,94 +14,80 @@
     
 </head>
     
-<body>
+<body class="dark-theme || light-theme">
+
+    <!-- <button class="btn-toggle">Toggle Dark Mode</button> -->
+      <script>
+        const btn = document.querySelector('.btn-toggle');
+        // Listen for a click on the button
+        btn.addEventListener('click', function() {
+        // Then toggle (add/remove) the .dark-theme class to the body
+        document.body.classList.toggle('dark-theme');  
+        })
+    </script>
+  
     <!--TYPED-->
     <div style="text-align: center; font-size: 5vmin; font-weight: 600; color: #333333; font-family: 'Arimo', sans-serif;">
         
-            <div id="typed-strings" class="typer">
-            
-           <p>Hi! I'm Kevin.</p>
-            
-                <br>
-              </div>
-            <span id="typed"></span>
+        <div id="typed-strings" class="typer">
+            <p>Hey, I'm Kevin.</p>
+        </div>
+        <span id="typed"></span>
     </div>
-
-
-    <!--IMAGE--> 
-   
-     <div style="text-align: center; line-height: 1.8em; padding-top: 1px; font-size-adjust: auto; font-size: 45px" id="header">
-    <!-- <h3>hi!</h3> -->
+        <div style="text-align: center; line-height: 1.8em; padding-top: 1px; font-size-adjust: auto; font-size: 45px" id="header">
     </div>
     
     <img src="./img/profilepic.png" class="center-image">
 
-    <!-- <br><br>
-    <br><br> -->
-
-    <div style="text-align: center; font-size: 2vmin; font-weight: 600; color: #333333; font-family: 'Arimo', sans-serif;">
-        <div id="typed-strings" class="typer">
-        <h1> I'm Kevin, a
-            <span class="txt-type" data-wait="3000" data-words='["developer.", "designer.", "creator."]'></span>
-          </h1>
-        </div>
-    </div>
-
     <div id="content" style="font-family: 'Arimo', sans-serif;">
  <!-- <br> -->
-        
-    I’m a third year <span style="background-color: #cbf0e1"> <a href="https://www.cc.gatech.edu/"> Computer Science</a></span> student 
-    with a focus in media & information internetworks at <span style="background-color: rgb(255, 245, 197)"> <a href="https://www.gatech.edu/"> Georgia Tech</a></span> learning
-     about the world & how I can do my part in making it a better place with code.
+     
+<h1>A Little About Me</h1>
+    Thanks for checking out my landing page! I’m  currently a student at <span style="background-color: rgb(255, 245, 197)"> <a href="https://www.gatech.edu/">Georgia Tech</a></span> 
+    studying computer science learning about the world & figuring out how I can do my part in making it a better place with code.    
+    Outside of my time of being a TA & a student, I spend my time climbing, traveling, listening to all kinds of <span style="background-color: rgb(188, 250, 176)"> <a href="https://open.spotify.com/user/ohcnivek?si=lofo4m-iTiiy7bouQUCPkQ">music</a></span>, and
+    making people laugh on twitter. 
+    <br>
 
-    <h1>A Little About Me</h1>
-    Currently based in Atlanta, I spend most of my time outside of my coursework at Georgia Tech as a Teaching Assistant 
-    for CS 1332, Data Structures & Algorithms. Otherwise, you can expect to find me exploring the world and making memories with my friends. Some of 
-    my hobbies include traveling, climbing, painting (really anything related to art - including art history!) & making playlists on my 
-    <span style="background-color: rgb(188, 250, 176)"> <a href="https://open.spotify.com/user/ohcnivek?si=lofo4m-iTiiy7bouQUCPkQ"> Spotify! </a></span> 
-
-<h1> // soon, I'll: </h1>
+<h1> // for summer 2022: </h1>
     <ul>
         <li>
-            Be in Menlo Park, working at <span style="background-color: #b5deff"> Facebook</span> as a Software Engineering Intern for the summer of 2022. 
-            
+            I'll be in Menlo Park, working at <span style="background-color: #97d0ff">Facebook</span> as a Software Engineer Intern.
         </li>
-    
-
     </ul>
 
 <h1> // currently, I'm: </h1>
-
     <ul>
-
         <li>
-            Looking for internships for Fall 2022 in Atlanta! 
+            Recruiting/ looking for remote internships based out of Atlanta for Fall 2022! 
         </li>
         <li>A 
             <span style="background-color: rgb(237, 197, 255)"> Teaching Assistant</span> 
             for 
             <span style="background-color: rgb(253, 191, 183)"> <a href="https://ctl.gatech.edu/sites/default/files/images/hudachek-buswell_cs1332_syllabus.pdf"> Data Structures & Algorithms (CS1332)</a></span> 
-            at the College of Computing @ Georgia Tech. I teach a 
-            weekly 75-minute recitation to a section of roughly about 50 students, host office hours, develop & write tests for the autograder framework, and assist the professor 
-            in writing, reviewing, and publishing exams in addition to grading over 150+ homework submissions over the course of each semester.
+            at the College of Computing @ Georgia Tech.
         </li>
     </ul>
         
 <h1> //  in the past, I: </h1>
-    <h2>  coded stuff: </h2>
 
+    <h2>  coded stuff: </h2>
     <ul>
         <li>
-            Worked on delivering a more seamless, interactive in-flight entertainment platform doing android development (kotlin, rxJava) as a 
-            Software Engineer Co-Op for Delta Flight Products (DFP) at
-             <span style="background-color: rgb(185, 223, 245)"> <a href="https://www.delta.com/"> Delta Air Lines</a></span> during the summer of 2021.
+            Last summer, I worked on the inseat tablet unit(the tv's on the plane) with the in-flight entertainment team at <span style="background-color: rgb(185, 223, 245)"> <a href="https://www.delta.com/"> Delta Air Lines</a></span> 
+            doing android development (kotlin, rxJava) as a Software Engineer Co-Op.
         </li>
 
         <li>
-            Helped in safeguarding the identities of the homeless as a Backend Software Engineer Intern at <span style="background-color: rgb(183, 248, 253)"> <a href="https://keep.id/"> Keep.id</a></span> 
+            Worked on/ still working as an open source contributor for the 
+            <span style="background-color: rgb(246, 255, 197)"> <a href="https://csvistool.com">Data Structures & Algorithms Visualization Tool!</a></span> 
+            You can also check it out the source code / contribute 
+            <span style="background-color: rgb(183, 253, 218)"> <a href="https://github.com/RodrigoDLPontes/visualization-tool">here!</a></span> 
+            
+
         </li>
 
-        <li> Helped deploy/develop the 
+        <li> Helped develop the 
             <span style="background-color: rgb(230, 234, 255)"> <a href="https://fintech.gatech.edu/#/">website</a></span> for the 
              <span style="background-color: rgb(245, 247, 199)"> FinTech Lab</span> at Georgia Tech, 
              working alongside Prof.Sudheer, Agam, Divesh, and Anjana.
@@ -109,85 +95,65 @@
         </li>
     </ul>
 
-
-
-
-    <h2>  designed stuff: </h2>
+    <h2>  drew stuff: </h2>
         <ul>
             <li>I have a digital portfoilo with some of my artwork on  
-                <span style="background-color: rgb(253, 220, 150)"> <a href="https://www.instagram.com/kevinchoart/">Instagram</a></span>. I love painting and wish I had more time to do more projects. 
+                <span style="background-color: rgb(253, 220, 150)"> <a href="https://www.instagram.com/kevinchoart/">Instagram</a></span>. I love painting and wish I had more time to work on projects. 
             </li>
 
             <li>One of my designs is actually the album cover of 
-                
                 <span style="background-color: rgb(183, 250, 186)"> <a href="https://open.spotify.com/album/7M5yDYVTm4pdILrpZpls6f?si=7lxc4htaQbSz0wp9qNJQXg">Allison</a></span>, by the Hipps! They're a real talented group of guys - go give em a follow on 
                 Spotify! Currently designing another album cover... more on that soon!
             </li>
 
         </ul>
-    <h2>  analyzed things: </h2>
+
+
+    <h2>  raised money: </h2>
         <ul>
-            <li>
-                As a 
-                <span style="background-color: rgb(176, 216, 243)"> Business Analyst</span> 
-                at the Georgia Tech chapter of 
-                <span style="background-color: rgb(235, 176, 247)"> <a href="https://consultyourcommunity.org/">Consult Your Community</a></span>,
-                I worked and collaborated with my team to identify 4 new potential points of market entry, 
-                able to potentially generate over $15 million in revenue for our client. We did this by using data clustering techniques and 
-                frameworks to analyze and funnel a dataset comprised of over 7,000 nodes down to 4. 
-            </li>
-            
-
-        </ul>
-    <h2>  fundraised for events: </h2>
-
-        <ul>
-
             <li> As a member on the 
                 <span style="background-color: rgb(211, 214, 255)"> Morale Committee</span> 
-                
                 of 
-                <span style="background-color: rgb(236, 247, 176)"> <a href="https://www.forthekidsatgeorgiatech.com/">Georgia Tech For the Kids (GTFTK)</a></span>, I got to dance and share some tears with some 
-                incredible people. At 
-                <span style="background-color: rgb(176, 247, 241)"> <a href="https://www.facebook.com/pg/gtforthekids/photos/?tab=album&album_id=2712911785411841&ref=page_internal">Dance Marathon 2020</a></span>, we collectively raised over $250,000! Can't wait for DM 2021.
+                <span style="background-color: rgb(236, 247, 176)"> <a href="https://www.forthekidsatgeorgiatech.com/">Georgia Tech For the Kids (GTFTK)</a></span>, I got to dance
+                 and fundraise with some incredible people for some incredible kids. At 
+                <span style="background-color: rgb(176, 247, 241)"> <a href="https://www.facebook.com/pg/gtforthekids/photos/?tab=album&album_id=2712911785411841&ref=page_internal">Dance Marathon 2020</a></span>, 
+                we collectively raised over $250,000. 
             </li>
-
         </ul>
 
-<h2> took some cool classes: </h2>
-<ul>
-    <li>CS4400: Database Systems</li>
-    <li>CS3600: Artificial Intelligence</li>
-    <li>CS2200: Systems & Networks</li>
-    <li>CS2110: Computer Programming & Organization (Assembly & C)</li>
-    <li>CS2340: Software Engineering & Design</li>
-    <li>CS2050: Discrete Math</li>
-    <li>CS1332: Data Structures and Algorithms (Java)</li>
-    <li>CS1331 & CS1301: Object Oriented Programming in Java & Python</li>
-    <li>MATH1554: Linear Algebra</li>
-</ul>
-
-<h1> //  i'm curious about: </h1>
-<ul>
-    <li>machine learning & AI</li>
-    <li>music</li>
-    <li>art history</li>
-
-</ul>
+    <h2> took some cool classes: </h2>
+        <ul>
+            <li>CS3251: Computer Networks</li>
+            <li>CS3451: Computer Graphics: i made <span style="background-color: rgb(236, 247, 176)"> <a href="https://github.com/ohcnivek/perry-the-platypus">perry the platypus!</a></span></li>
+            <li>CS2200: Systems & Networks</li>
+            <li>CS2050: Discrete Math</li>
+            <li>CS1332: Data Structures and Algorithms</li>
+            <li>MATH1554: Linear Algebra</li>
+        </ul>
 
 <h1> //  i'm skilled in: </h1>
-<ul>
-    <li>java</li>
-    <li>python</li>
-    <li>html, css, javascript</li>
-    <li>adobe photoshop</li>
-    <li>guitar (i would like to think so)</li>
-</ul>
+    <ul>
+        <li>java</li>
+        <li>python</li>
+        <li>javascript</li>
+        <li>react (getting better)</li>
+        <li>guitar (i would like to think so)</li>
+    </ul>
+
+<h1> //  i'm curious about: </h1>
+    <ul>
+        <li>faith</li>
+        <li>tech</li>
+        <li>music</li>
+        <li>art history</li>
+    </ul>
+
+
 
 <h1> //  i'm not skilled in: </h1>
-<ul>
-    <li>giving directions</li>
-</ul>
+    <ul>
+        <li>giving directions</li>
+    </ul>
 
 
 <h1> // i'm affiliated with: </h1> 
@@ -202,37 +168,25 @@
 <div style="text-align: center; line-height: 1.8em; padding-top: 15px;" id="header">
     <a href="https://www.linkedin.com/in/kevinhcho/" target="_blank">LinkedIn</a> |
     <a href="https://github.com/ohcnivek" target="_blank">GitHub</a> |
-    <a href="mailto:kevincho@gatech.edu" target="_blank">Email</a> 
-        
-        </div>
+    <a href="https://drive.google.com/file/d/1y1jf--VoxzouqRwpAZDYKbqAukOpexPN/view?usp=sharing" target="_blank">Resume</a> |
+    <a href="mailto:ohcnivek@gmail.com" target="_blank">Email</a> 
+</div>
     <br>
 
-<!-- <h5 align="center"> (shoutout to @campbellerickson for awesome design inspiration :) </h5>
-    <div style="padding-top: 30px; text-align: center; bottom: 0px;"> <i>Homemade by Campbell | 2018</i></div> -->
-               
-    
-    
-    </div>
-    
-        
-    <script>
-    $(document).ready(function(){
-    $("#header").delay(13000).fadeIn();
-    });</script>
-    
+<!-- <h5 align="center"> </h5> -->
     
     
   <script src="main.js" type="text/javascript"></script>  
 
                                              
-          </body>                                             
+</body>                                             
                                              
-<!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- The core Firebase JS SDK is always required and must be listed first
 <script src="/__/firebase/7.16.1/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.16.1/firebase-analytics.js"></script>
+<!-- <script src="/__/firebase/7.16.1/firebase-analytics.js"></script>
 
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
