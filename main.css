@@ -69,54 +69,54 @@
     /* other */
     background-color: white;
     padding: 4px 30px;
-  }
+}
   
-  .btn-toggle:hover {
+.btn-toggle:hover {
     /* update text color and background color */
     color:white;
     background-color:black;
-    
-     /* transitions */
+
+        /* transitions */
     transition-duration: .2s;
     -webkit-transition-duration: .11s;
     -moz-transition-duration: .2s;
-  }
-  
-  .variation-a,
-  .variation-b {
+}
+
+.variation-a,
+.variation-b {
     display: inline-block;
     height: 100px;
     width: 100%;
     text-align: center;
     padding-top: 50px;
-  }
+}
   
-  .variation-b .btn-toggle {
+.variation-b .btn-toggle {
     /* font */
     color: white;
-    
+
     /* border */
     border: 2px solid white;
-    
+
     /* other */
     background-color: black;
-  }
+}
   
-  .variation-b .btn-toggle:hover {
+.variation-b .btn-toggle:hover {
     /* font */
     color: black;
-    
+
     /* border */
     border: 2px solid black;
-    
+
     /* other */
     background-color: white;
-  }
+}
   
-  button.btn-toggle {
+button.btn-toggle {
     -webkit-appearance: none;
     -moz-appearance: none;
-  }
+}
 
 body{
 font-family: 'Montserrat', sans-serif;    
@@ -126,9 +126,17 @@ padding: 20px;
 font-size:  20wv;
 }
 
+body a{
+    color: #121212;
+}
+
+body.typed-cursor {
+
+}
+
 
 /* Dark Mode styles */
-body.dark-theme {
+body.dark-theme{
     color: #eee;
     background: #121212;
     font-family: 'Montserrat', sans-serif;    
@@ -138,7 +146,7 @@ body.dark-theme {
 }
 
 body.dark-theme a {
-color: #000000;
+color: #fffdfd;
 }
 
 
@@ -156,8 +164,6 @@ margin:0 0 20px;
 text-align: center;
 font-size: 20vw;
 font-family: 'Montserrat', sans-serif;  
-
-
 }
 
 .wrap{
