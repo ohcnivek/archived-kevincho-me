@@ -35,8 +35,88 @@
 }
 
 
+.btn-toggle {
+    /* font */
+    color: black;
+    font-size: 20px;
+    font-family: helvetica;
 
+    /* position: relative; */
+    /* left: 200px; */
 
+    position: absolute;
+    top: 100px;
+    right: 100px;
+
+    max-width: 300px;
+    padding-bottom: 100px;
+    padding-left: 500px;
+    padding-right: 50px;
+    padding-top: 10px;
+    
+    /* remove blue underline */
+    text-decoration: none;
+    
+    /* border */
+    border: 2px solid black;
+    border-radius: 20px;
+    
+    /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    
+    /* other */
+    background-color: white;
+    padding: 4px 30px;
+  }
+  
+  .btn-toggle:hover {
+    /* update text color and background color */
+    color:white;
+    background-color:black;
+    
+     /* transitions */
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+  }
+  
+  .variation-a,
+  .variation-b {
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .variation-b .btn-toggle {
+    /* font */
+    color: white;
+    
+    /* border */
+    border: 2px solid white;
+    
+    /* other */
+    background-color: black;
+  }
+  
+  .variation-b .btn-toggle:hover {
+    /* font */
+    color: black;
+    
+    /* border */
+    border: 2px solid black;
+    
+    /* other */
+    background-color: white;
+  }
+  
+  button.btn-toggle {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
 
 body{
 font-family: 'Montserrat', sans-serif;    
@@ -44,9 +124,24 @@ background:#fff;
 text-align:center;
 padding: 20px;
 font-size:  20wv;
-
-
 }
+
+
+/* Dark Mode styles */
+body.dark-theme {
+    color: #eee;
+    background: #121212;
+    font-family: 'Montserrat', sans-serif;    
+    text-align:center;
+    padding: 20px;
+    font-size:  20wv;
+}
+
+body.dark-theme a {
+color: #000000;
+}
+
+
 
 a{
 text-decoration: none;

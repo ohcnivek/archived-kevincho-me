@@ -14,15 +14,20 @@
     
 </head>
     
-<body class="dark-theme || light-theme">
+<body class="light-theme || dark-theme">
 
-    <!-- <button class="btn-toggle">Toggle Dark Mode</button> -->
-      <script>
+    <div class="variation-a || variation-b">
+        <button class="btn-toggle"> 🌖 </button>
+    </div>
+    
+    <script>
         const btn = document.querySelector('.btn-toggle');
         // Listen for a click on the button
         btn.addEventListener('click', function() {
         // Then toggle (add/remove) the .dark-theme class to the body
-        document.body.classList.toggle('dark-theme');  
+            document.body.classList.toggle('dark-theme');  
+            document.div.classList.toggle('variation-b')
+
         })
     </script>
   
