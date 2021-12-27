@@ -130,9 +130,6 @@ body a{
     color: #121212;
 }
 
-body.typed-cursor {
-
-}
 
 
 /* Dark Mode styles */
@@ -146,7 +143,7 @@ body.dark-theme{
 }
 
 body.dark-theme a {
-color: #fffdfd;
+color: #525252;
 }
 
 
