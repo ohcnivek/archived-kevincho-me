@@ -1,3 +1,5 @@
-### source code of my website! 
+Website for [kevincho.me](kevincho.me)
 
-currently hosted on [here](https://kevincho.herokuapp.com/) on heroku, but will be getting moved very very soon!
+currently hosted on heroku, but will be getting moved very very soon!
+
+update 12/28: it got moved to vercel! 
