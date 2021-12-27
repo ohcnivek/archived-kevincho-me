@@ -1,4 +1,4 @@
-Website for [kevincho.me](kevincho.me)
+Website for [kevincho.me](https://kevincho.me/)
 
 currently hosted on heroku, but will be getting moved very very soon!
 
