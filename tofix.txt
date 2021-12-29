@@ -1,0 +1,3 @@
+hover highlighting on darkmode 
+<a> tag(w no links)'s text color on darkmode
+color of typed text
