@@ -146,6 +146,14 @@ body.dark-theme a {
 color: #525252;
 }
 
+body.dark-theme a:hover {
+    color: #FF9E56;
+}
+
+body.dark-theme span {
+    color: #2b2a2a;;;
+}
+
 
 
 a{
