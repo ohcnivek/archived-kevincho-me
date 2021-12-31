@@ -143,7 +143,7 @@ body.dark-theme{
 }
 
 body.dark-theme a {
-color: #525252;
+color: #7e7e7e;
 }
 
 body.dark-theme a:hover {
@@ -154,6 +154,13 @@ body.dark-theme span {
     color: #2b2a2a;;;
 }
 
+body.typed-header {
+    text-align: center; 
+    font-size: 5vmin; 
+    font-weight: 600; 
+    color: #ff5b5b; 
+    font-family: 'Arimo', sans-serif;
+}
 
 
 a{
