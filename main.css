@@ -35,147 +35,86 @@
 }
 
 
-.btn-toggle {
-    /* font */
-    color: black;
-    font-size: 20px;
-    font-family: helvetica;
-
-    /* position: relative; */
-    /* left: 200px; */
-
-    position: absolute;
-    top: 100px;
-    right: 100px;
-
-    max-width: 300px;
-    padding-bottom: 100px;
-    padding-left: 500px;
-    padding-right: 50px;
-    padding-top: 10px;
-    
-    /* remove blue underline */
-    text-decoration: none;
-    
-    /* border */
-    border: 2px solid black;
-    border-radius: 20px;
-    
-    /* transitions */
-    transition-duration: .2s;
-    -webkit-transition-duration: .2s;
-    -moz-transition-duration: .2s;
-    
-    /* other */
-    background-color: white;
-    padding: 4px 30px;
-}
-  
-.btn-toggle:hover {
-    /* update text color and background color */
-    color:white;
-    background-color:black;
-
-        /* transitions */
-    transition-duration: .2s;
-    -webkit-transition-duration: .11s;
-    -moz-transition-duration: .2s;
+.split {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
-.variation-a,
-.variation-b {
-    display: inline-block;
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    padding-top: 50px;
+/* Control the left side */
+.left {
+    position: relative;
+    width: 30%;
+    left: 2%;
+    background-color: inherit;
 }
-  
-.variation-b .btn-toggle {
-    /* font */
-    color: white;
 
-    /* border */
-    border: 2px solid white;
 
-    /* other */
-    background-color: black;
-}
-  
-.variation-b .btn-toggle:hover {
-    /* font */
-    color: black;
 
-    /* border */
-    border: 2px solid black;
-
-    /* other */
-    background-color: white;
-}
-  
-button.btn-toggle {
-    -webkit-appearance: none;
-    -moz-appearance: none;
+.right {
+    margin-left: 0;
+    right: 0%;
+    width:65%;
+    background-color: inherit;
+    text-align: left;
 }
 
 body{
 font-family: 'Montserrat', sans-serif;    
-background:#fff;
+background:rgb(31, 30, 30);
 text-align:center;
 padding: 20px;
 font-size:  20wv;
 }
 
 body a{
-    color: #121212;
+    color: rgb(65, 65, 65);
+    font-weight: bolder;
 }
 
-
-
-/* Dark Mode styles */
-body.dark-theme{
-    color: #eee;
-    background: #121212;
-    font-family: 'Montserrat', sans-serif;    
-    text-align:center;
-    padding: 20px;
-    font-size:  20wv;
+#header {
+    text-decoration: none;
+    color: rgb(192, 192, 192);
 }
 
-body.dark-theme a {
-color: #7e7e7e;
+.anchor {
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    font-weight: 400;
 }
-
-body.dark-theme a:hover {
-    color: #FF9E56;
-}
-
-body.dark-theme span {
-    color: #2b2a2a;;;
-}
-
-body.typed-header {
-    text-align: center; 
-    font-size: 5vmin; 
-    font-weight: 600; 
-    color: #ff5b5b; 
-    font-family: 'Arimo', sans-serif;
-}
-
 
 a{
 text-decoration: none;
-color:#666;
+color:rgb(255, 255, 255);
 }
-a:hover{
+
+
+body a:hover{
 color:#FF9E56;
 }
+
 p{
 line-height: 3em;
 margin:0 0 20px;
 text-align: center;
 font-size: 20vw;
 font-family: 'Montserrat', sans-serif;  
+}
+
+.split .left span.typed-cursor{
+    color: #5695FF;
+}
+
+#no-link{
+    color: #111111;
+}
+
+span{
+    color: rgb(248, 245, 245);
 }
 
 .wrap{
@@ -198,20 +137,20 @@ text-align: center;
 }
 
 .center-image{
-    text-align: center;
-    width: 30%;
-    max-width: 300px;
-    padding-bottom: 5px;
-    z-index: 300;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-
+text-align: center;
+width: 50%;
+max-width: 300px;
+padding-bottom: 0;
+z-index: 300;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 20px;
 }
 
 
 
 .main{
+color: #f0f0f0;
 padding:0px;
 font-family: 'Montserrat', sans-serif;
 font-size: 80%;
@@ -221,13 +160,14 @@ padding-top: 50px;
 }
 
 #content{
+color: #e6e6e6;
 padding: 30px;
 font-size: 100%;
 font-family: 'Montserrat', sans-serif;
 line-height: 1.7em;
 text-align: left;
-max-width: 600px;
-vertical-align: middle;
+max-width: 800px;
+vertical-align: left;
 margin:0 auto; 
 
 
@@ -261,5 +201,4 @@ img {
     width: 200px;
     height: auto;
 }
-
 
