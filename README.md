@@ -1,5 +1,1 @@
-Website for [kevincho.me](https://kevincho.me/)
-
-currently hosted on heroku, but will be getting moved very very soon!
-
-update 12/27: moved to vercel! 
+Source code of [kevincho.me](https://kevincho.me/)
