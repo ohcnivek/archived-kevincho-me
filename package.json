@@ -1,7 +1,7 @@
 {
   "name": "kevincho-me",
   "version": "0.1.0",
-  "homepage": "https://kevincho.me",
+  "homepage": "https://kevincho.me/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.1",
