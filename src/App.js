@@ -75,7 +75,7 @@ export default function App() {
         <Container maxWidth="sm">
           <Typography variant="body1">
           Contact Me!
-          {<Box component="span" fontWeight='fontWeightMedium' className={classes.messengerC}> Messenger: ohcnivek</Box>}
+          {<Box component="span" fontWeight='fontWeightMedium' className={classes.messengerC}> ohcnivek@gmail.com</Box>}
              
           </Typography>
           <Copyright />
