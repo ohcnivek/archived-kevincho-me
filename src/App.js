@@ -51,8 +51,8 @@ export default function App() {
         <Header></Header>
 
         <Typography variant="h5" component="h2" gutterBottom>
-          {"I'm currently searching for a role as a Software Engineer Intern for Fall 2022 (Aug-Dec). If you have any roles available for me or have any questions about my experience or qualifications, "} 
-          {"please don't hesistate to contact me @ "}
+          {"I'm currently searching for a role as a Software Engineer Intern for Fall 2022 (Aug-Dec). If you have any roles available for me or have any questions about my background or experience, "} 
+          {"please don't hesitate to contact me @ "}
 
           {<Box component="span" fontWeight='fontWeightMedium' className={classes.oldFBC}>ohcnivek@gmail.com</Box>}
         </Typography>

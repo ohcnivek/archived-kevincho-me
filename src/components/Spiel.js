@@ -52,7 +52,7 @@ function Spiel() {
             {'Soon,'}
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
-            {'I will be in Menlo Park interning at'} {<Box component="span" fontWeight='fontWeightMedium' className={classes.metaC}>Meta (Facebook)</Box>} {'as a Software Engineer Intern.'} 
+            {'I will be in Menlo Park interning at'} {<Box component="span" fontWeight='fontWeightMedium' className={classes.metaC}>Meta (Facebook)</Box>} {'as a Software Engineer Intern for Summer 2022.'} 
             </Typography>
 
 
