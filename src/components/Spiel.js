@@ -2,8 +2,7 @@ import { Typography } from '@mui/material';
 import Link from '@mui/material/Link';
 import { makeStyles } from '@mui/styles';
 import Box from '@mui/material/Box';
-
- 
+import {SiFacebook, SiGithub} from 'react-icons/si'
 
 const useStyles = makeStyles({
     metaC: {
@@ -34,50 +33,63 @@ function Spiel() {
 
     return (
         <div>
-            
-
             <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
-            {'Currently,'}
+                {'Currently,'}
             </Typography>
             <Typography variant="h5" component="h2"  gutterBottom>
-            {"I'm studying Computer Science at Georgia Tech. More specifically how the internet works (info networks) and computer graphics (media)."}
+                {"I'm studying Computer Science at Georgia Tech. More specifically how the internet works (info networks) and computer graphics (media)."}
             </Typography>
-
             <Typography variant="h5" component="h2"  gutterBottom>
-
-            {"I also teach at the College of Computing as a Teaching Assistant for "} {<Box component="span" fontWeight='fontWeightMedium' className={classes.DSA}>Data Structures and Algorithms (CS1332).</Box>}
+                {"I also teach at the College of Computing as a Teaching Assistant for "} {<Box component="span" fontWeight='fontWeightMedium' className={classes.DSA}>Data Structures and Algorithms (CS1332).</Box>}
             </Typography>
 
             <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
-            {'Soon,'}
+                {'Soon,'}
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
-            {'I will be in Menlo Park interning at'} {<Box component="span" fontWeight='fontWeightMedium' className={classes.metaC}>Meta (Facebook)</Box>} {'as a Software Engineer Intern for Summer 2022.'} 
+                {'I will be in Menlo Park interning at'} {<Box component="span" fontWeight='fontWeightMedium' className={classes.metaC}><SiFacebook></SiFacebook> Meta </Box>} {'as a Software Engineer Intern for Summer 2022.'} 
             </Typography>
 
-
-            
             <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
-            {'Previously,'}
+                {'Previously,'}
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
-            {'I was at '} 
+                {'I was at '} 
             {<Box component="span" fontWeight='fontWeightMedium' className={classes.deltaR}>Delta Air Lines (Delta Flight Products) </Box>} 
-              {' as a Software Engineer Co-op working on the In-Flight Entertainment System.'}
+                {' as a Software Engineer Co-op working on the In-Flight Entertainment System.'}
             </Typography>
 
             <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
-            {'I really like...'}
+                {"I've worked on/ been working on..."}
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
-            {'to climb, learn, teach, code, travel... I also occasionally write about stuff at '} 
-            
-            {<Link color="inherit" href="https://kevincho.blog" className={classes.myTextStyle}> kevincho.blog</Link>}
-      
+                {<Link color="inherit" href="https://github.com/ohcnivek/groupme-etiquette-revamp" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>}
+                {<Link color="inherit" href="https://groupme-etiquette-revamp.vercel.app" className={classes.myTextStyle}> groupme etiquette analyzer</Link>}
+            </Typography>
+
+            <Typography variant="h5" component="h2" gutterBottom>
+                {<Link color="inherit" href="https://github.com/RodrigoDLPontes/visualization-tool" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>}
+                {<Link color="inherit" href="https://csvistool.com" className={classes.myTextStyle}> open source visualization tool for ds & a </Link>} 
+            </Typography>
+
+            <Typography variant="h5" component="h2" gutterBottom>
+                {<Link color="inherit" href="https://github.com/ohcnivek/unfortunately-my-thoughts" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>} 
+                {<Link color="inherit" href="https://kevincho.blog" className={classes.myTextStyle}> my blog </Link>}
             </Typography>
             
+            <Typography variant="h5" component="h2" gutterBottom>
+                {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>} 
+                {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> queueing application for office hours</Link>} 
+            </Typography>
 
-        
+            <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
+                {'I really like...'}
+            </Typography>
+            <Typography variant="h5" component="h2" gutterBottom>
+                {'to climb, learn, teach, code, travel... I also occasionally write about stuff at '} 
+                {<Link color="inherit" href="https://kevincho.blog" className={classes.myTextStyle}> kevincho.blog</Link>}
+            </Typography>
+                    
         </div>
     );
   }
