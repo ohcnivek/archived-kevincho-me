@@ -62,33 +62,47 @@ function Spiel() {
             <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
                 {"I've worked on/ been working on..."}
             </Typography>
-            <Typography variant="h5" component="h2" gutterBottom>
-                {<Link color="inherit" href="https://github.com/ohcnivek/groupme-etiquette-revamp" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>}
-                {<Link color="inherit" href="https://groupme-etiquette-revamp.vercel.app" className={classes.myTextStyle}> groupme etiquette analyzer</Link>}
-            </Typography>
+            <ul>
+                <li>
+                    <Typography variant="h5" component="h2" gutterBottom>
+                        {<Link color="inherit" href="https://groupme-etiquette-revamp.vercel.app" className={classes.myTextStyle}> groupme etiquette analyzer</Link>}
+                        {<Link color="inherit" href="https://github.com/ohcnivek/groupme-etiquette-revamp" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>}
+                    </Typography>
+                </li>
+                
+                <li>
+                    <Typography variant="h5" component="h2" gutterBottom>
+                        {<Link color="inherit" href="https://csvistool.com" className={classes.myTextStyle}> open source data structures & algorithms visualization tool </Link>} 
+                        {<Link color="inherit" href="https://github.com/RodrigoDLPontes/visualization-tool" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>}
+                    </Typography>
+                </li>
+                
+                <li>
+                    <Typography variant="h5" component="h2" gutterBottom>
+                        {<Link color="inherit" href="https://kevincho.blog" className={classes.myTextStyle}> my blog </Link>}
+                        {<Link color="inherit" href="https://github.com/ohcnivek/unfortunately-my-thoughts" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>} 
+                    </Typography>
+                </li>
+                
+                <li>
+                    <Typography variant="h5" component="h2" gutterBottom>
+                        {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> queueing application for office hours</Link>} 
+                        {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>} 
+                    </Typography>
+                </li>
 
-            <Typography variant="h5" component="h2" gutterBottom>
-                {<Link color="inherit" href="https://github.com/RodrigoDLPontes/visualization-tool" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>}
-                {<Link color="inherit" href="https://csvistool.com" className={classes.myTextStyle}> open source visualization tool for ds & a </Link>} 
-            </Typography>
-
-            <Typography variant="h5" component="h2" gutterBottom>
-                {<Link color="inherit" href="https://github.com/ohcnivek/unfortunately-my-thoughts" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>} 
-                {<Link color="inherit" href="https://kevincho.blog" className={classes.myTextStyle}> my blog </Link>}
-            </Typography>
-            
-            <Typography variant="h5" component="h2" gutterBottom>
-                {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>} 
-                {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> queueing application for office hours</Link>} 
-            </Typography>
+                
+            </ul>
 
             <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
-                {'I really like...'}
-            </Typography>
+                    {'I really like...'}
+                </Typography>
+
             <Typography variant="h5" component="h2" gutterBottom>
                 {'to climb, learn, teach, code, travel... I also occasionally write about stuff at '} 
                 {<Link color="inherit" href="https://kevincho.blog" className={classes.myTextStyle}> kevincho.blog</Link>}
             </Typography>
+            
                     
         </div>
     );
