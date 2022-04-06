@@ -65,7 +65,7 @@ function Spiel() {
             <ul>
                 <li>
                     <Typography variant="h5" component="h2" gutterBottom>
-                        {<Link color="inherit" href="https://groupme-etiquette-revamp.vercel.app" className={classes.myTextStyle}> groupme etiquette analyzer</Link>}
+                        {<Link color="inherit" href="https://groupme-etiquette-revamp.vercel.app" className={classes.myTextStyle}> groupme analyzer</Link>}
                         {<Link color="inherit" href="https://github.com/ohcnivek/groupme-etiquette-revamp" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>}
                     </Typography>
                 </li>
@@ -84,12 +84,12 @@ function Spiel() {
                     </Typography>
                 </li>
                 
-                <li>
+                {/* <li>
                     <Typography variant="h5" component="h2" gutterBottom>
                         {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> queueing application for office hours</Link>} 
                         {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>} 
                     </Typography>
-                </li>
+                </li> */}
 
                 
             </ul>
@@ -99,7 +99,7 @@ function Spiel() {
                 </Typography>
 
             <Typography variant="h5" component="h2" gutterBottom>
-                {'to climb, learn, teach, code, travel... I also occasionally write about stuff at '} 
+                {'to climb, run, learn, teach, code, travel... I also occasionally write about stuff at '} 
                 {<Link color="inherit" href="https://kevincho.blog" className={classes.myTextStyle}> kevincho.blog</Link>}
             </Typography>
             
