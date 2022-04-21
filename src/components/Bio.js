@@ -16,7 +16,7 @@ function Bio() {
 
     return (
         <Typography variant="h5" component="h2" gutterBottom>
-          {"I'm currently searching for a role as a Software Engineer Intern for Fall 2022 (Aug-Dec). If you have any roles available for me or have any questions about my background or experience, "} 
+          {"I'm no longer recruiting for fall 2022 — however, I'm starting to look into full time roles starting in May 2023. If you have questions, "} 
           {"please don't hesitate to contact me @ "}
 
           {<Box component="span" fontWeight='fontWeightMedium' className={classes.oldFBC}>ohcnivek@gmail.com</Box>}
