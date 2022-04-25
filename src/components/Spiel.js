@@ -48,7 +48,9 @@ function Spiel() {
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
                 {'I will be in Menlo Park interning at'} {<Box component="span" fontWeight='fontWeightMedium' className={classes.metaC}><SiFacebook></SiFacebook> Meta </Box>} {'as a Software Engineer Intern for Summer 2022. '} 
-                {'Soon after, I will be joining a Stealth Startup in the fall working on developer productivity tools in the Bay Area.'}
+            </Typography>
+            <Typography variant="h5" component="h2" gutterBottom>
+                {'Soon after, I will be joining a Stealth Startup in the fall to work on developer productivity tools in the Bay Area.'}
             </Typography>
 
             <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
