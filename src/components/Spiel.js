@@ -18,6 +18,9 @@ const useStyles = makeStyles({
     DSA: {
         color: 'rgb(127 186 0)'
     },
+    OOP: {
+        color: 'rgb(81 184 223)'
+    },
 
     myTextStyle: {
         color: 'white', 
@@ -37,11 +40,9 @@ function Spiel() {
                 {'Currently,'}
             </Typography>
             <Typography variant="h5" component="h2"  gutterBottom>
-                {"I'm studying Computer Science at Georgia Tech. More specifically how the internet works (info networks) and computer graphics (media)."}
+                {"I'm a 4th year at Georgia Tech studying Computer Science. More specifically how the internet works (info networks) and computer graphics (media)."}
             </Typography>
-            <Typography variant="h5" component="h2"  gutterBottom>
-                {"I also teach at the College of Computing as a Teaching Assistant for "} {<Box component="span" fontWeight='fontWeightMedium' className={classes.DSA}>Data Structures and Algorithms (CS1332).</Box>}
-            </Typography>
+            
 
             <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
                 {'Soon,'}
@@ -61,8 +62,13 @@ function Spiel() {
             {<Box component="span" fontWeight='fontWeightMedium' className={classes.deltaR}>Delta Air Lines (Delta Flight Products) </Box>} 
                 {' as a Software Engineer Co-op working on the In-Flight Entertainment System.'}
             </Typography>
+            <Typography variant="h5" component="h2"  gutterBottom>
+                {"I also taught at the College of Computing as a Teaching Assistant for "} {<Box component="span" fontWeight='fontWeightMedium' className={classes.DSA}>Data Structures and Algorithms (CS1332)</Box>} {"and "} 
+                {<Box component="span" fontWeight='fontWeightMedium' className={classes.OOP}>Object Oriented Programming in Java (CS1331)</Box>}
+                {" for 5 semesters."}
+            </Typography>
 
-            <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom>
+            <Typography variant="h5" component="h2" style={{ fontWeight: 500 }} gutterBottom> 
                 {"I've worked on/ been working on..."}
             </Typography>
             <ul>
@@ -87,12 +93,6 @@ function Spiel() {
                     </Typography>
                 </li>
                 
-                {/* <li>
-                    <Typography variant="h5" component="h2" gutterBottom>
-                        {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> queueing application for office hours</Link>} 
-                        {<Link color="inherit" href="https://github.com/ohcnivek/ta-queue" className={classes.myTextStyle}> <SiGithub></SiGithub></Link>} 
-                    </Typography>
-                </li> */}
 
                 
             </ul>
