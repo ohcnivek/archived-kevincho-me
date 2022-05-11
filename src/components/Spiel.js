@@ -16,10 +16,10 @@ const useStyles = makeStyles({
     },
 
     DSA: {
-        color: 'rgb(127 186 0)'
+        color: 'rgb(104, 159, 191)'
     },
     OOP: {
-        color: 'rgb(81 184 223)'
+        color: 'rgb(104, 159, 191)'
     },
 
     myTextStyle: {
@@ -63,7 +63,7 @@ function Spiel() {
                 {' as a Software Engineer Co-op working on the In-Flight Entertainment System.'}
             </Typography>
             <Typography variant="h5" component="h2"  gutterBottom>
-                {"I also taught at the College of Computing as a Teaching Assistant for "} {<Box component="span" fontWeight='fontWeightMedium' className={classes.DSA}>Data Structures and Algorithms (CS1332)</Box>} {"and "} 
+                {"I've also taught at the College of Computing as a Teaching Assistant for "} {<Box component="span" fontWeight='fontWeightMedium' className={classes.DSA}>Data Structures and Algorithms (CS1332)</Box>} {"and "} 
                 {<Box component="span" fontWeight='fontWeightMedium' className={classes.OOP}>Object Oriented Programming in Java (CS1331)</Box>}
                 {" for 5 semesters."}
             </Typography>
