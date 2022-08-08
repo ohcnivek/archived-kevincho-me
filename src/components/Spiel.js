@@ -14,14 +14,12 @@ const useStyles = makeStyles({
   deltaG: {
     color: "rgb(134, 38, 51)",
   },
-
   DSA: {
     color: "rgb(104, 159, 191)",
   },
   OOP: {
     color: "rgb(104, 159, 191)",
   },
-
   myTextStyle: {
     color: "white",
     "&:hover": {
@@ -43,19 +41,7 @@ function Spiel() {
       >
         {"Currently,"}
       </Typography>
-      <Typography variant="h5" component="h2" gutterBottom>
-        {"I'm in Menlo Park interning at"}{" "}
-        {
-          <Box
-            component="span"
-            fontWeight="fontWeightMedium"
-            className={classes.metaC}
-          >
-            <SiFacebook></SiFacebook> Meta{" "}
-          </Box>
-        }{" "}
-        {"as a Software Engineer Intern for Summer 2022. "}
-      </Typography>
+
       <Typography variant="h5" component="h2" gutterBottom>
         {
           "I'm a 4th year at Georgia Tech studying Computer Science. More specifically how the internet works (info networks) and computer graphics (media)."
@@ -73,8 +59,30 @@ function Spiel() {
 
       <Typography variant="h5" component="h2" gutterBottom>
         {
-          "I'll be joining Aviator (YCS21) in the fall to work on developer productivity tools in the Bay Area."
+          "I'll be joining Aviator (YCS21) in the fall to work on developer productivity tools (continuous integration + deployment) in the Bay Area."
         }
+      </Typography>
+
+      <Typography
+        variant="h5"
+        component="h2"
+        style={{ fontWeight: 500 }}
+        gutterBottom
+      >
+        {"Recently,"}
+      </Typography>
+      <Typography variant="h5" component="h2" gutterBottom>
+        {"I finished up my internship at "}{" "}
+        {
+          <Box
+            component="span"
+            fontWeight="fontWeightMedium"
+            className={classes.metaC}
+          >
+            <SiFacebook></SiFacebook> Facebook (Meta){" "}
+          </Box>
+        }{" "}
+        {"as a Software Engineer Intern, where I did full stack development."}
       </Typography>
 
       <Typography
@@ -85,8 +93,9 @@ function Spiel() {
       >
         {"Previously,"}
       </Typography>
+
       <Typography variant="h5" component="h2" gutterBottom>
-        {"I was at "}
+        {" I was at "}
         {
           <Box
             component="span"
@@ -97,7 +106,7 @@ function Spiel() {
           </Box>
         }
         {
-          " as a Software Engineer Co-op working on the In-Flight Entertainment System."
+          " as a Software Engineer Co-op working on the In-Flight Entertainment System (summer 2021)."
         }
       </Typography>
       <Typography variant="h5" component="h2" gutterBottom>

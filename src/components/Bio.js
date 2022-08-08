@@ -17,19 +17,15 @@ function Bio() {
   return (
     <Typography variant="h5" component="h2" gutterBottom>
       {
-        "I'm no longer recruiting for internships — however, I'm starting to look into full time roles that start in May 2023. If you have questions, "
+        "I'm recruiting for full-time roles that start in May 2023. If you have questions/ opportunities, please don't hesitate to contact me @ "
       }
-      {"please don't hesitate to contact me @ "}
-
-      {
-        <Box
-          component="span"
-          fontWeight="fontWeightMedium"
-          className={classes.oldFBC}
-        >
-          ohcnivek@gmail.com
-        </Box>
-      }
+      <Box
+        component="span"
+        fontWeight="fontWeightMedium"
+        className={classes.oldFBC}
+      >
+        ohcnivek@gmail.com
+      </Box>
     </Typography>
   );
 }
