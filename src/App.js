@@ -3,6 +3,7 @@ import Link from "@mui/material/Link";
 import { makeStyles } from "@mui/styles";
 import { Typography, Container, Box } from "@mui/material";
 import { SiMinutemailer, SiGithub, SiStrava } from "react-icons/si";
+import TagManager from "react-gtm-module";
 
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -20,6 +21,11 @@ const useStyles = makeStyles({
     color: "rgb(174, 99, 255)",
   },
 });
+
+const tagManagerArgs = {
+  gtmId: "G - WGTL5ETMVG",
+};
+TagManager.initialize(tagManagerArgs);
 
 export default function App() {
   const classes = useStyles();
