@@ -3,7 +3,7 @@ import Link from "@mui/material/Link";
 import { makeStyles } from "@mui/styles";
 import { Typography, Container, Box } from "@mui/material";
 import { SiMinutemailer, SiGithub, SiStrava } from "react-icons/si";
-import TagManager from "react-gtm-module";
+import ReactGA from "react-ga";
 
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -22,10 +22,10 @@ const useStyles = makeStyles({
   },
 });
 
-const tagManagerArgs = {
-  gtmId: "G - WGTL5ETMVG",
-};
-TagManager.initialize(tagManagerArgs);
+const TRACKING_ID = "G - WGTL5ETMVG"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname);
+console.log(window.location.pathname);
 
 export default function App() {
   const classes = useStyles();
