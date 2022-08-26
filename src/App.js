@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
 
-const TRACKING_ID = "G - WGTL5ETMVG"; // YOUR_OWN_TRACKING_ID
+const TRACKING_ID = "G - WGTL5ETMVG";
 ReactGA.initialize(TRACKING_ID);
 ReactGA.pageview(window.location.pathname);
 console.log(window.location.pathname);
