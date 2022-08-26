@@ -5,6 +5,12 @@ import Box from "@mui/material/Box";
 import { SiFacebook, SiGithub } from "react-icons/si";
 
 const useStyles = makeStyles({
+  aviatorC: {
+    color: "rgb(0, 48, 59)",
+  },
+  yCombinatorC: {
+    color: "rgb(255, 64, 0)",
+  },
   metaC: {
     color: "rgb(0, 128, 251)",
   },
@@ -15,10 +21,10 @@ const useStyles = makeStyles({
     color: "rgb(134, 38, 51)",
   },
   DSA: {
-    color: "rgb(104, 159, 191)",
+    color: "rgb(196, 89, 95)",
   },
   OOP: {
-    color: "rgb(104, 159, 191)",
+    color: "rgb(196, 89, 95)",
   },
   myTextStyle: {
     color: "white",
@@ -43,24 +49,31 @@ function Spiel() {
       </Typography>
 
       <Typography variant="h5" component="h2" gutterBottom>
+        {"I'm working on developer productivity tools (CI/CD) at "}{" "}
         {
-          "I'm a 4th year at Georgia Tech studying Computer Science. More specifically how the internet works (info networks) and computer graphics (media)."
+          <Box
+            component="span"
+            fontWeight="fontWeightMedium"
+            className={classes.aviatorC}
+          >
+            Aviator{" "}
+          </Box>
         }
-      </Typography>
-
-      <Typography
-        variant="h5"
-        component="h2"
-        style={{ fontWeight: 500 }}
-        gutterBottom
-      >
-        {"Soon,"}
-      </Typography>
-
-      <Typography variant="h5" component="h2" gutterBottom>
         {
-          "I'll be joining Aviator (YCS21) in the fall to work on developer productivity tools (continuous integration + deployment) in the Bay Area."
-        }
+          <Box
+            component="span"
+            fontWeight="fontWeightMedium"
+            className={classes.yCombinatorC}
+          >
+            [YCS21]{" "}
+          </Box>
+        }{" "}
+        {"as a Software Engineer Intern in the Bay Area."}
+        <Typography variant="h5" component="h2" gutterBottom marginTop={1}>
+          {
+            "I'm also a 4th year student at Georgia Tech studying Computer Science. More specifically how the internet works (info networks) and computer graphics (media)."
+          }
+        </Typography>
       </Typography>
 
       <Typography
@@ -79,7 +92,7 @@ function Spiel() {
             fontWeight="fontWeightMedium"
             className={classes.metaC}
           >
-            <SiFacebook></SiFacebook> Facebook (Meta){" "}
+            Facebook (Meta){" "}
           </Box>
         }{" "}
         {"as a Software Engineer Intern, where I did full stack development."}
@@ -102,11 +115,11 @@ function Spiel() {
             fontWeight="fontWeightMedium"
             className={classes.deltaR}
           >
-            Delta Air Lines (Delta Flight Products){" "}
+            Delta Air Lines [Delta Flight Products]{" "}
           </Box>
         }
         {
-          " as a Software Engineer Co-op working on the In-Flight Entertainment System (summer 2021)."
+          " as a Software Engineer Co-op working where I worked on the In-Flight Entertainment System (summer 2021)."
         }
       </Typography>
       <Typography variant="h5" component="h2" gutterBottom>
